@@ -1,0 +1,23 @@
+.form__container h1 {
+    margin: 20px;
+    text-align: center;
+}
+
+.form__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__item input {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.form__item__botton {
+    background-color: rgb(178, 149, 94);
+    height: 30px;
+    width: 70px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}

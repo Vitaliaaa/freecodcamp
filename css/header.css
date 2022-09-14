@@ -1,0 +1,35 @@
+.header__logo img {
+    width: 150px;
+    height: 90px;
+}
+
+.header__logo {
+    text-align: center;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header__nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.header__nav a:hover {
+    color: rgb(52, 110, 152);
+    text-decoration: underline;
+}
+
+.header__nav a:active {
+    color: red;
+}
+
+@media (min-width: 500px) {
+    .header__logo {
+        text-align: left;
+        float: left
+    }
+}

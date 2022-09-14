@@ -1,0 +1,19 @@
+.about__container {
+    margin: 20px;
+}
+
+.about__container h2 {
+    text-align: center;
+}
+
+.about__container p {
+    margin: 20px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.about__container p::first-letter {
+    color: rgb(124, 5, 5);
+    font-size: 20px;
+    text-decoration: underline;
+}
